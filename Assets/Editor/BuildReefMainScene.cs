@@ -376,7 +376,7 @@ public static class BuildReefMainScene
         vo.controller = controller; vo.view = view; vo.soundscape = sound; vo.seaweed = weeds;
         ReefVoiceOver.Cue Cue(string id, Stage stage, ReefVoiceOver.Trigger trigger, float delay, string text, string after = null, float fallback = 0f)
         {
-            var clip = Audio("VO/VO_" + (id.StartsWith("06") ? "06" : id) + ".mp3", false);   // 06a–06d 都来自 VO_06
+            var clip = Audio("VO/VO_" + id + ".mp3", false);
             return new ReefVoiceOver.Cue { id = id, text = text, clip = clip, stage = stage, trigger = trigger, delay = delay, afterId = after, fallback = fallback, gain = VoiceGain(clip) };
         }
         ReefVoiceOver.Cue Seg(ReefVoiceOver.Cue c, float start, float end) { c.clipStart = start; c.clipEnd = end; return c; }
@@ -396,23 +396,13 @@ public static class BuildReefMainScene
             // 04 Night falls:天黑过渡开始
             Cue("04",   Stage.DuskTransition,   ReefVoiceOver.Trigger.StageEnter,      .5f,
                 "Night is falling over the reef, the little fish nestle among your coral branches. Let's help the jellyfish's gentle light grow."),   // 2026-11-05 晚:新录音
-            // 05 Breathe in:进入场景4,引导吸气(助手随患者吸气按住扳机)
-            Cue("05",   Stage.BreathHold,       ReefVoiceOver.Trigger.StageEnter,      1f,
-                "Take a slow breath in, as deeply as feels comfortable. Watch the jellyfish grow and glow."),
-            // 06 Hold:VO_06 一个文件里有两轮呼吸提示 → 按句间停顿切成 4 段,跟着扳机播放
-            //   (停顿位置由静音检测得出:3.88–4.66、6.98–7.60、12.64–13.86 s,取中点切开)
-            // 06a:05 播完且第一次吸气(按住扳机)后 2 秒;进入场景 20 秒仍没按也播
-            Seg(Cue("06a", Stage.BreathHold,    ReefVoiceOver.Trigger.FirstInhale,     2f,
-                "Gently hold for a moment. The light rests with you.", "05", 20f), 0f, 4.27f),
-            // 06b:06a 开始之后第一次松开扳机(呼气)
-            Seg(Cue("06b", Stage.BreathHold,    ReefVoiceOver.Trigger.ExhaleAfterCue,  .3f,
-                "Perfect. Now you can breathe normally.", "06a"), 4.27f, 7.29f),
-            // 06c:06b 播完 5 秒后,引导第二轮
-            Seg(Cue("06c", Stage.BreathHold,    ReefVoiceOver.Trigger.AfterCue,        5f,
-                "Let's try it again. Take a slow breath in, then hold.", "06b"), 7.29f, 13.25f),
-            // 06d:06c 开始之后第一次松开扳机(第二次呼气)
-            Seg(Cue("06d", Stage.BreathHold,    ReefVoiceOver.Trigger.ExhaleAfterCue,  .3f,
-                "Wonderful. You can breathe normally now.", "06c"), 13.25f, 0f),
+            // 05 Breathe in:进入场景4 后 1 秒。2026-11-06 用户要求只保留前半句(去掉 "Watch the jellyfish grow and glow.")
+            //   切点由逐词时间得出:"comfortable." 结束于 5.36s,"Watch" 开始于 6.08s → 取 5.72s
+            Seg(Cue("05", Stage.BreathHold,     ReefVoiceOver.Trigger.StageEnter,      1f,
+                "Take a slow breath in, as deeply as feels comfortable."), 0f, 5.72f),
+            // 06 已去掉(2026-11-06):"Gently hold…" "Let's try it again…" "Wonderful…" 都不再播。
+            //   改由 BreathGuide:05 播完后按住扳机 → 吸气声 + 1 秒后视觉中心缓现 "Hold";
+            //   松开扳机 → "Hold" 缓慢消失 + 配音 "Now you can breathe normally."(VO_06 的 5.49–7.29s)+ 吐气声;每次按/松都重复。
             // 07 Resume normal breathing:按 A 天亮、水母游走
             Cue("07",   Stage.ExhaleTransition, ReefVoiceOver.Trigger.StageEnter,      .5f,
                 "You can breathe normally now. The light spreads softly around the little fish."),
@@ -420,6 +410,17 @@ public static class BuildReefMainScene
             Cue("08",   Stage.Exit,             ReefVoiceOver.Trigger.StageEnter,      .3f,
                 "Our underwater journey is coming to an end. Thank you for sharing this little ocean with us. Gently bring your attention back to the room. Keep resting while we help you remove the headset."),
         };
+
+        // 2026-11-06 场景4 呼吸引导:吸气声 / "Hold" 字幕 / 松开扳机的配音 + 吐气声
+        var guide = experience.AddComponent<BreathGuide>();
+        guide.controller = controller; guide.voiceOver = vo; guide.soundscape = sound; guide.viewer = camera.transform;
+        var vo06 = Audio("VO/VO_06.mp3", false);
+        guide.releaseClip = vo06; guide.releaseStart = 5.49f; guide.releaseEnd = 7.29f; guide.releaseGain = VoiceGain(vo06);
+        var holdMat = CloneMaterial("Assets/Materials/HoldText.mat", new Material(Shader.Find("UnderTheSea/HoldText")));
+        holdMat.shader = Shader.Find("UnderTheSea/HoldText");
+        holdMat.mainTexture = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf").material.mainTexture;
+        EditorUtility.SetDirty(holdMat);
+        guide.textMaterial = holdMat;
 
         var desktopLook = experience.AddComponent<ReefDesktopCamera>();
         desktopLook.cameraTransform = camera.transform; desktopLook.controller = controller;

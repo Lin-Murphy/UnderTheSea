@@ -1,6 +1,3 @@
-# Plastic SCM workspace metadata
-.plastic/
-
 # Unity generated
 /[Ll]ibrary/
 /[Tt]emp/
@@ -11,8 +8,19 @@
 /[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# Android build temp
 /.utmp/
-/Migration~/
+*.apk
+*.aab
+*.symbols.zip
 
 # IDE
 .vs/
@@ -20,8 +28,10 @@
 .idea/
 .gradle/
 *.csproj
+*.unityproj
 *.sln
 *.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
@@ -32,13 +42,15 @@
 *.opendb
 *.VC.db
 
-# Builds
-*.apk
-*.aab
-*.unitypackage
-*.app
-crashlytics-build.properties
-sysinfo.txt
-
+# Local tooling / machine-specific
+/TempAssembly.dll
+/.mcp.json
+/Assets/XR/APILayers~/
+.plastic/
+ignore.conf
 *.private
 *.private.meta
+
+# OS
+.DS_Store
+Thumbs.db

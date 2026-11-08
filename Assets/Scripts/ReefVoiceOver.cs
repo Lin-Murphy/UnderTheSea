@@ -130,18 +130,37 @@ namespace UnderTheSea
                 foreach (var c in cues)
                 {
                     if (c.fired || !c.armed || t < c.armTime || c.stage != s) continue;
-                    c.fired = true; current = c; c.playTime = t;
-                    voiceGain.gain = c.gain;
-                    voice.clip = c.clip; voice.volume = volume;
-                    voice.time = Mathf.Clamp(c.clipStart, 0f, c.clip.length - .01f);
-                    segmentEnd = c.clipEnd;
-                    voice.Play();
-                    Debug.Log($"[VO] {c.id}: {c.text}");
+                    PlayCue(c);
                     break;
                 }
 
             // 3. 配音时压低其它声音(平滑 0.3 秒)
             if (soundscape) soundscape.voiceLevel = Mathf.MoveTowards(soundscape.voiceLevel, voice.isPlaying ? 1f : 0f, Time.deltaTime / .3f);
+        }
+
+        void PlayCue(Cue c)
+        {
+            c.fired = true; current = c; c.playTime = Time.time;
+            voiceGain.gain = c.gain;
+            voice.clip = c.clip; voice.volume = volume;
+            voice.time = Mathf.Clamp(c.clipStart, 0f, c.clip.length - .01f);
+            segmentEnd = c.clipEnd;
+            voice.Play();
+            Debug.Log($"[VO] {c.id}: {c.text}");
+        }
+
+        /// <summary>表中这条配音已经播完(自检 / BreathGuide 用)。</summary>
+        public bool CueFinished(string id) => Done(Find(id));
+
+        /// <summary>
+        /// 由其它脚本直接播放一句配音(可重复,例如场景4 每次松开扳机的 "Now you can breathe normally.")。
+        /// 正在播别的配音时不打断,返回 false(调用方下一帧再试)。
+        /// </summary>
+        public bool Say(string id, AudioClip clip, float start, float end, float gain, string text)
+        {
+            if (!clip || voice.isPlaying) return false;
+            PlayCue(new Cue { id = id, clip = clip, clipStart = start, clipEnd = end, gain = gain, text = text });
+            return true;
         }
     }
 }

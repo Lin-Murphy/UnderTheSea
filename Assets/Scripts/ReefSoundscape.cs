@@ -61,7 +61,7 @@ namespace UnderTheSea
         [System.NonSerialized] public float voiceLevel;
         float MusicDuck => Mathf.Lerp(1f, musicDuck, voiceLevel);
         float AmbienceDuck => Mathf.Lerp(1f, ambienceDuck, voiceLevel);
-        bool introStarted, afterIntroPending, breathWasHeld;
+        bool introStarted, afterIntroPending;
         float breathAmbLevel;
 
         /// <summary>自检用:当前状态。</summary>
@@ -170,35 +170,39 @@ namespace UnderTheSea
             UpdateBreath(s);
         }
 
-        /// <summary>按住扳机播放前半段并停在中点;松开后从中点播放后半段。</summary>
+        bool inhaling;
+
+        /// <summary>吸气声:"憋气时声音"的前半段,播到中点停住(2026-11-06 起由 BreathGuide 在合适时机调用)。</summary>
+        public void PlayInhale()
+        {
+            if (!breath || !breath.clip) return;
+            inhaling = true;
+            breath.volume = breathVolume; breath.time = 0f; breath.Play();
+        }
+
+        /// <summary>吐气声:"憋气时声音"的后半段。</summary>
+        public void PlayExhale()
+        {
+            if (!breath || !breath.clip) return;
+            inhaling = false;
+            breath.volume = breathVolume; breath.time = breath.clip.length * .5f; breath.Play();
+        }
+
         void UpdateBreath(Stage s)
         {
             if (!breath.clip) return;
-            bool held = s == Stage.BreathHold && controller.BreathHeld;
             float half = breath.clip.length * .5f;
-            if (held && !breathWasHeld)
+            if (inhaling && breath.isPlaying && breath.time >= half)
             {
-                breath.volume = breathVolume;
-                breath.time = 0f;
-                breath.Play();
-            }
-            else if (held && breath.isPlaying && breath.time >= half)
-            {
-                breath.Pause();                 // 憋气:停在前半段结尾
+                breath.Pause();                 // 吸气声播到中点停住
                 breath.time = half;
             }
-            else if (!held && breathWasHeld && s == Stage.BreathHold)
+            if (s != Stage.BreathHold && breath.isPlaying)
             {
-                breath.time = half;             // 呼气:播放后半段(提前松手也从中点开始)
-                breath.volume = breathVolume;
-                breath.Play();
-            }
-            else if (s != Stage.BreathHold && breath.isPlaying)
-            {
+                inhaling = false;
                 breath.volume = Mathf.MoveTowards(breath.volume, 0f, Time.deltaTime);
                 if (breath.volume <= 0f) breath.Stop();
             }
-            breathWasHeld = held;
         }
     }
 }

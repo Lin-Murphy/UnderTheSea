@@ -79,7 +79,8 @@
 | `TagClownfish` | 小丑鱼(`Assets/Models/Clownfish`,Swim_Loop 动画) |
 | `BreathGlow` (+`Shaders/BreathSparkle.shader`) | 尖端发光、颗粒、夜间闪烁粒子、水母光晕/颗粒 |
 | `ReefSoundscape` | 8 个音效(`Assets/Audio`,原中文文件名),含 `duck` 压低 |
-| `ReefVoiceOver` | 旁白 cue 表(`Assets/Audio/VO`) |
+| `ReefVoiceOver` | 旁白 cue 表(`Assets/Audio/VO`),`Say()` 供其它脚本直接播一句 |
+| `BreathGuide` (+`Shaders/HoldText.shader`) | 场景4 呼吸引导:吸气声、"Hold" 字幕、松开扳机的配音 + 吐气声 |
 | `QuestAprilTagPoseSource` / `CompositeTagPoseSource` / `MockTagPoseSource` / `TagIds` | Tag 位姿 |
 | `PassthroughBridge` / `XRLinkFallback` / `StartButton` / `StageHud` / `ReefDesktopCamera` | Passthrough、编辑器 XR 兜底、Start 按钮、HUD、桌面视角 |
 
@@ -87,8 +88,10 @@
 
 ## 8. 音效与配音
 
-- **音效**(`ReefSoundscape`,全部 2D):泡泡声常驻(随 VR 显现);进入 VR 后开场背景乐 → 播完接"播放完背景乐和开场词";每结束一个场景(按 A)播"每结束一个场景";涂耦合剂/天黑开始播"小鱼靠近珊瑚";场景4 憋气背景音循环;扳机按住播"憋气时声音"前半段、松开播后半段;退场播"退场开始进入ar世界"。音量全部 1;每个音效有自己的增益(短音效由 Builder 按录音响度自动算到约 −20 dB,长音轨用实测值:泡泡 ×2.9、开场乐 ×1.3、憋气背景 ×2.5),再乘**总增益 `masterGain` = 1.5**(Quest 自带喇叭偏小,电脑上会偏大)。增益由 `AudioGain`(OnAudioFilterRead,峰值软限幅)实现。配音时开场音乐压到 50%,环境声 85%。用户试听后单独调低(音量字段):"播放完背景乐和开场词" 0.25、"每结束一个场景" 0.25、憋气背景音 0.25、憋气时声音 0.7、退场音效 0.5。**Quest 测试必须先关掉 Quest Link**(Link 开着时回到应用会没声音,只有打开系统菜单时才有)。
-- **配音 VO**(`ReefVoiceOver`):`Assets/Audio/VO/VO_01…08`(03、04 为新录音),已按《Voiceover script 确定版》匹配(台词与时机见 `Assets/Audio/VO/VO_script.txt`,cue 表里也存了 text)。01 Enter 显现后 1s;02 涂胶;03 探头第一次碰到 tag(3s 兜底)播 `VO_03`(2026-11-05 晚的新录音,台词加了小丑鱼;旧的 03.1/03.2 不再使用);04 天黑(`VO_04` 已换成新录音:小鱼躲进珊瑚枝间);05 进入场景4;06 按句间停顿切成 4 段跟着扳机播(cue 的 clipStart/clipEnd):06a = 05 播完 + 第一次按扳机后 2s(20s 兜底)、06b = 之后第一次松开扳机、06c = 06b 播完 5s、06d = 第二次松开扳机(新触发 `ExhaleAfterCue`);07 天亮;08 退场,回到现实后继续播完(只有按 B 中断)。每条按响度自动增益到约 −20 dB(原始 −27~−31 dB,之前被同时播放的开场音乐盖住)。配音的增益同样乘总增益 `masterGain`。触发时控制台打印 `[VO] id: 台词`。
+- **音效**(`ReefSoundscape`,全部 2D):泡泡声常驻(随 VR 显现);进入 VR 后开场背景乐 → 播完接"播放完背景乐和开场词";每结束一个场景(按 A)播"每结束一个场景";涂耦合剂/天黑开始播"小鱼靠近珊瑚";场景4 憋气背景音循环;场景4 的吸气/吐气声由 `BreathGuide` 控制(见下);退场播"退场开始进入ar世界"。音量全部 1;每个音效有自己的增益(短音效由 Builder 按录音响度自动算到约 −20 dB,长音轨用实测值:泡泡 ×2.9、开场乐 ×1.3、憋气背景 ×2.5),再乘**总增益 `masterGain` = 1.5**(Quest 自带喇叭偏小,电脑上会偏大)。增益由 `AudioGain`(OnAudioFilterRead,峰值软限幅)实现。配音时开场音乐压到 50%,环境声 85%。用户试听后单独调低(音量字段):"播放完背景乐和开场词" 0.25、"每结束一个场景" 0.25、憋气背景音 0.25、憋气时声音 0.7、退场音效 0.5。**Quest 测试必须先关掉 Quest Link**(Link 开着时回到应用会没声音,只有打开系统菜单时才有)。
+- **配音 VO**(`ReefVoiceOver`):`Assets/Audio/VO/VO_01…08`(03、04 为新录音),已按《Voiceover script 确定版》匹配(台词与时机见 `Assets/Audio/VO/VO_script.txt`,cue 表里也存了 text)。01 Enter 显现后 1s;02 涂胶;03 探头第一次碰到 tag(3s 兜底)播 `VO_03`(2026-11-05 晚的新录音,台词加了小丑鱼;旧的 03.1/03.2 不再使用);04 天黑(`VO_04` 已换成新录音:小鱼躲进珊瑚枝间);05 进入场景4 后 1s,只播前半句 "Take a slow breath in, as deeply as feels comfortable."(0–5.72s);06 已去掉,场景4 改由 `BreathGuide` 引导(见下);07 天亮;08 退场,回到现实后继续播完(只有按 B 中断)。每条按响度自动增益到约 −20 dB(原始 −27~−31 dB,之前被同时播放的开场音乐盖住)。配音的增益同样乘总增益 `masterGain`。触发时控制台打印 `[VO] id: 台词`。
+
+- **场景4 呼吸引导**(`BreathGuide`,2026-11-06):05 播完后,助手**按住扳机** → 吸气声("憋气时声音"前半段,播到中点停住);吸气 1 秒后视觉中心缓缓出现 **"Hold"**(1s 淡入,`Shaders/HoldText.shader` 始终在最前面);**松开扳机** → "Hold" 1.5s 淡出,配音 "Now you can breathe normally."(`VO_06` 5.49–7.29s,去掉了 "Perfect.")→ 播完接吐气声(后半段)。之后每次按/松都重复(05 只在开头播一次)。05 还没播完就按住:等 05 播完才出吸气声和 Hold。水母/海草/发光等视觉仍直接跟扳机。已去掉的句子:"Watch the jellyfish grow and glow." "Gently hold for a moment. The light rests with you." "Perfect." "Let's try it again…" "Wonderful…"。
 
 ## 9. TODO(下一个对话从这里开始)
 
