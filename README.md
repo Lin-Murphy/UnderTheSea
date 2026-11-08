@@ -2,7 +2,7 @@
 
 **Real scan moments, made meaningful.** 面向超声检查中儿童患者的 AR → VR → AR 安抚体验(Meta Quest 3)。孩子戴上头显变成海底的一株珊瑚,检查中的每种感受都变成故事的一部分。
 
-Team 2 在 [ARR Hackathon](https://www.scivr.co.uk/arr-hackathon)(2026.11.4–6,Goldsmiths, University of London)的作品。
+Team 2 在 [ARR Hackathon](https://www.scivr.co.uk/arr-hackathon)(2026.11.4–6,Goldsmiths, University of London)的作品,获 ARR 项目负责人颁发的🏅**提名奖**。
 
 https://github.com/user-attachments/assets/56a70fdd-ee4f-47b5-a6c8-9050c689c04b
 
