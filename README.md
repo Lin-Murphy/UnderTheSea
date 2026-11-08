@@ -10,9 +10,9 @@
 
 ## 🎬 Demo
 
-[![Ultrasound Wonders demo (click to watch the full video)](Documentation/Media/demo-preview.gif)](https://github.com/Lin-Murphy/UnderTheSea/releases/download/v0.1-cs15/Ultrasound-Wonders-Demo.mp4)
+https://github.com/user-attachments/assets/56a70fdd-ee4f-47b5-a6c8-9050c689c04b
 
-▶️ **[观看完整演示视频 / Watch the full demo (MP4, 56 s)](https://github.com/Lin-Murphy/UnderTheSea/releases/download/v0.1-cs15/Ultrasound-Wonders-Demo.mp4)** · 📦 **[下载 Quest 3 APK](https://github.com/Lin-Murphy/UnderTheSea/releases/tag/v0.1-cs15)**
+⬇️ **[下载 1080p 原版视频 / Download the 1080p video](https://github.com/Lin-Murphy/UnderTheSea/releases/download/v0.1-cs15/Ultrasound-Wonders-Demo-1080p.mp4)** · 📦 **[下载 Quest 3 APK](https://github.com/Lin-Murphy/UnderTheSea/releases/tag/v0.1-cs15)**
 
 ## 👥 制作人 / Team
 
