@@ -4,6 +4,10 @@
 
 面向**超声检查中的儿童患者**的情绪安抚体验。孩子躺在病床上戴着 Quest 3,在故事里变成海底的一株珊瑚:小鱼游来、海草随着探头轻抚身体、水母陪着一起呼吸——用一段温柔的海底故事陪伴整个检查过程。
 
+> 🏆 本项目是 **Team 2** 在 **[Asymmetric Reframed Reality (ARR) Hackathon & Co-Creation Workshop](https://www.scivr.co.uk/arr-hackathon)**(2026 年 11 月 4–6 日,Goldsmiths, University of London)上完成的黑客松作品。该活动由 Goldsmiths SEE VR Lab 主办,属于 King's College London 牵头的 ARR(Asymmetric Reframed Reality)研究项目,主题是*用沉浸式 / 空间技术为真实的身体交互赋予新的意义*。
+>
+> Built by Team 2 at the [ARR Hackathon](https://www.scivr.co.uk/arr-hackathon) (4–6 Nov 2026, Goldsmiths, University of London), part of the King's College London–led Asymmetric Reframed Reality research project.
+
 ## 🎬 Demo
 
 [![Ultrasound Wonders demo (click to watch the full video)](Documentation/Media/demo-preview.gif)](https://github.com/Lin-Murphy/UnderTheSea/releases/download/v0.1-cs15/Ultrasound-Wonders-Demo.mp4)
