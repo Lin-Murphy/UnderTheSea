@@ -1,0 +1,1122 @@
+[
+  {
+    "path": "Assets/InputSystem_Actions.inputactions",
+    "bytes": 41005,
+    "sha256": "1c6cbb519d65ecfe19a29231735b7f54741a20ac1a8ad4f46a18e1bfb28a3c39"
+  },
+  {
+    "path": "Assets/InputSystem_Actions.inputactions.meta",
+    "bytes": 376,
+    "sha256": "3b4e424a80f5b4fa76b6abd774884a24285eaa61f22ff9bb20e5ad505fd8b569"
+  },
+  {
+    "path": "Assets/Readme.asset",
+    "bytes": 1450,
+    "sha256": "bf74ddf1e9228066dee720b59978848af81ef54b116ba2cf9915b06088b158a9"
+  },
+  {
+    "path": "Assets/Readme.asset.meta",
+    "bytes": 182,
+    "sha256": "46c6b89ac1d47bd0c0d1a8b141ae3e32cd95d3e74c49381f0d9f942488c254ce"
+  },
+  {
+    "path": "Assets/Scenes/SampleScene.unity",
+    "bytes": 11413,
+    "sha256": "07fce8b04804ddccb3026db5b43d8dc41ba138e49d50d36a5c24877081eacdca"
+  },
+  {
+    "path": "Assets/Scenes/SampleScene.unity.meta",
+    "bytes": 155,
+    "sha256": "b5815a6b12afaf810577bc89041c4ce46516c7cd6609693f8db616f8e5584d80"
+  },
+  {
+    "path": "Assets/Scenes/UnderwaterExamPreview.unity",
+    "bytes": 1146779,
+    "sha256": "bd7e5ac272ff87be7625949f15097484d1f01605bde5c4d59e294b798b74a486"
+  },
+  {
+    "path": "Assets/Scenes/UnderwaterExamPreview.unity.meta",
+    "bytes": 155,
+    "sha256": "0a3eb392ac7e823521aa7b7997b9e4859b4bbed291247373ff1e47645133504a"
+  },
+  {
+    "path": "Assets/Scenes/UnderwaterGarden.unity",
+    "bytes": 1051793,
+    "sha256": "a34f080c5eab48a76974b02ea90188dea46a6630bce02e9e592778f90773d140"
+  },
+  {
+    "path": "Assets/Scenes/UnderwaterGarden.unity.meta",
+    "bytes": 155,
+    "sha256": "2fd2f4a9c5c97f95fdb61a0a0237c2a7caa93f7632fef2df1439428bacc3079f"
+  },
+  {
+    "path": "Assets/Scenes/UnderwaterGelPreview.unity",
+    "bytes": 1075416,
+    "sha256": "30d5c8128cd66827a3bd33d1c371a4d18a69ec09bba8d8bbdc182d90c84e3082"
+  },
+  {
+    "path": "Assets/Scenes/UnderwaterGelPreview.unity.meta",
+    "bytes": 155,
+    "sha256": "204132a3b9baeb81504eb614b6dc44229925b409c396a98d3d73317625217f66"
+  },
+  {
+    "path": "Assets/Scenes.meta",
+    "bytes": 172,
+    "sha256": "92598ef42aeaa7813a50e780bcee1ad6c832b257592d09ffb0e6fb6116bb703f"
+  },
+  {
+    "path": "Assets/Settings/DefaultVolumeProfile.asset",
+    "bytes": 24035,
+    "sha256": "463776c51ae49d4fef980e8fd268081b2f505610d79315003faae1acff8f4115"
+  },
+  {
+    "path": "Assets/Settings/DefaultVolumeProfile.asset.meta",
+    "bytes": 189,
+    "sha256": "efbcb026cee6b8e32fdf27018c06b0515296a6ccbb43969e792fea270310700a"
+  },
+  {
+    "path": "Assets/Settings/Mobile_RPAsset.asset",
+    "bytes": 4709,
+    "sha256": "8d551911e1e411b063203e4ee970b4c1bcc209dc561aa7ecfe8824f85c2498f4"
+  },
+  {
+    "path": "Assets/Settings/Mobile_RPAsset.asset.meta",
+    "bytes": 189,
+    "sha256": "53ea46647712c615fd1a3f2e0dddfa8559eeedc649e9a1dbf93ff913de28544c"
+  },
+  {
+    "path": "Assets/Settings/Mobile_Renderer.asset",
+    "bytes": 1713,
+    "sha256": "aa93274c9521fa941170becec9e87c5fa36b8587eefd5eeb5c0eed0d1d4b1dbe"
+  },
+  {
+    "path": "Assets/Settings/Mobile_Renderer.asset.meta",
+    "bytes": 189,
+    "sha256": "a148ee2b4987b05b8ff7ae5f9bf84916184f77aefddc821dceb551f5a69f8179"
+  },
+  {
+    "path": "Assets/Settings/PC_RPAsset.asset",
+    "bytes": 4728,
+    "sha256": "92cc0975c4ebe398f323d43dc6f68690ae1ae019948bd6491e7542a20f740ace"
+  },
+  {
+    "path": "Assets/Settings/PC_RPAsset.asset.meta",
+    "bytes": 189,
+    "sha256": "bb469b9b6f318e9e9bed29c3b2e73e79371c04743c6f95dd6603941f1cd3e53e"
+  },
+  {
+    "path": "Assets/Settings/PC_Renderer.asset",
+    "bytes": 3439,
+    "sha256": "3d0b01d8ded3327263b6690be128a3de58d17c514943ae42fe743a3e084a9c79"
+  },
+  {
+    "path": "Assets/Settings/PC_Renderer.asset.meta",
+    "bytes": 189,
+    "sha256": "b5df8ddb2708c6ed4c133a5ff9ee95a75cc20e4ee3ed6181366a61aedbaf31ec"
+  },
+  {
+    "path": "Assets/Settings/SampleSceneProfile.asset",
+    "bytes": 3703,
+    "sha256": "a8677d4bac051d24caa11cd622e39f968155ee277bfce132274f1de225692fe9"
+  },
+  {
+    "path": "Assets/Settings/SampleSceneProfile.asset.meta",
+    "bytes": 182,
+    "sha256": "2e23abc214069f0adbf2b2207f1db54be7876629ec2a3681d0f4aa5b61622ef0"
+  },
+  {
+    "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "bytes": 29234,
+    "sha256": "f074f70005181226c7614cbfb06b064e692c1032763bef94ccf334d91d0056d0"
+  },
+  {
+    "path": "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta",
+    "bytes": 189,
+    "sha256": "f61661d8bc8dbe531daf09f6211ef978c7ba145c9207c8e76524396ae0722d7c"
+  },
+  {
+    "path": "Assets/Settings.meta",
+    "bytes": 172,
+    "sha256": "73c8e19843240273facb0af6bdbf430d719e397aded705629594060ce25ce7ad"
+  },
+  {
+    "path": "Assets/TutorialInfo/Editor/ReadmeEditor.cs",
+    "bytes": 3734,
+    "sha256": "8852033138cc30c44615174738d1b9a0751cd957b05b79fe82fd9c0a392cee0d"
+  },
+  {
+    "path": "Assets/TutorialInfo/Editor/ReadmeEditor.cs.meta",
+    "bytes": 264,
+    "sha256": "f59080b424c16fa13edd105bf006fdbad98c11fce0c921043e63c8877f144cd9"
+  },
+  {
+    "path": "Assets/TutorialInfo/Editor.meta",
+    "bytes": 193,
+    "sha256": "7036bdbc8af05799b5fd508484343b35c28a68b390198da4673d34357d7d667f"
+  },
+  {
+    "path": "Assets/TutorialInfo/Icons/URP.png",
+    "bytes": 24069,
+    "sha256": "1d17a9ff3537859abe2c008603d29d90cf43191ae77aa386167cc65e53ba03d9"
+  },
+  {
+    "path": "Assets/TutorialInfo/Icons/URP.png.meta",
+    "bytes": 3156,
+    "sha256": "b330f1fcfc4e6ceccc95fc34a38434141603469b135633e1c4e8a03c19f9fdbc"
+  },
+  {
+    "path": "Assets/TutorialInfo/Icons.meta",
+    "bytes": 193,
+    "sha256": "546e7d7af6b4d5e17d284c8f1188d05472e681911b8359905ee9b9e20769a106"
+  },
+  {
+    "path": "Assets/TutorialInfo/Readme.cs",
+    "bytes": 404,
+    "sha256": "bb2e692ebfab803e97f21693be8010d3c6a1a3dccf16f573935dc7438410cc2c"
+  },
+  {
+    "path": "Assets/TutorialInfo/Readme.cs.meta",
+    "bytes": 317,
+    "sha256": "80a3df9969fab6e656583ee9bbca884d0507e2b7de3417f6ea3118fba901cd60"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets/ReadmeEditor.uss",
+    "bytes": 1082,
+    "sha256": "dffaa875912d410a9ec426f47d29179094837e7c98893a6f7067d3f7d1dd93d9"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets/ReadmeEditor.uss.meta",
+    "bytes": 305,
+    "sha256": "0b7d3988e424498e61b8ad246996cbdef616dfceeeade3d8ebe974546f13f5ae"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets/ReadmeEditorDark.uss",
+    "bytes": 34,
+    "sha256": "55520ccb7ab7e06c25283f608a4391f25c3a62e19f4bd8ee270bb80fb50f3ff8"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets/ReadmeEditorDark.uss.meta",
+    "bytes": 305,
+    "sha256": "e42f7f9dda8a158ebe18760e1ad684eb113ef70061a046955db87592610bd8f2"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets/ReadmeEditorLight.uss",
+    "bytes": 34,
+    "sha256": "5e9ace1270007dc66b8b1c29063de8d3a6f056485ae116dfa38d2c5519334445"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets/ReadmeEditorLight.uss.meta",
+    "bytes": 305,
+    "sha256": "0e4af29f8addccee1c225bd695b280d2e712e59b8801b574481a934f7f78c2ed"
+  },
+  {
+    "path": "Assets/TutorialInfo/StyleSheets.meta",
+    "bytes": 193,
+    "sha256": "930d0c8276cea1559a3e315f8500ea6ca8b58d980eee3b44aaa1d461742c47e0"
+  },
+  {
+    "path": "Assets/TutorialInfo.meta",
+    "bytes": 172,
+    "sha256": "07f022e5932c833d026e020b27d73452ebd781993b616d76003494af1e140946"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/CoralPaletteStep.cs",
+    "bytes": 5671,
+    "sha256": "893801307ea4bd3206c19ce95c66b0f4d8fe9837d1a454b37f4f365ae84b98b8"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/CoralPaletteStep.cs.meta",
+    "bytes": 59,
+    "sha256": "3b08bb175c357dc8147776fa2747eb55bc3d494b327eddc475e9dde9cf2eff78"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/GelPreviewSetup.cs",
+    "bytes": 3511,
+    "sha256": "63577981127d6cb2fa11f9284b3d472320aba66f6ac125a45377d0bce2dc7396"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/GelPreviewSetup.cs.meta",
+    "bytes": 59,
+    "sha256": "c70dc840974358b0bb292992e21128672fe94faae48df776fce58cbf9a5ec70e"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/JellyfishSetup.cs",
+    "bytes": 6597,
+    "sha256": "e0c1350bc4a32ee3ea85596d0d49e4dc99dc065b66b9d2af4a30b4b9123e61fb"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/JellyfishSetup.cs.meta",
+    "bytes": 59,
+    "sha256": "369a8129d4cab5c097f2609f9610bc83079c742e18a7be6365311b6386ec0e33"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ProbeExamSetup.cs",
+    "bytes": 7453,
+    "sha256": "f35972798db413701f5d72c4595bfde67b35b9728502899aa851746f84af8036"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ProbeExamSetup.cs.meta",
+    "bytes": 59,
+    "sha256": "1a7ef446150116821854a4b8b8bf316fedd8ad86e9aebd092572cb7e19796f25"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefAtmosphereStep.cs",
+    "bytes": 9544,
+    "sha256": "d79819d30b034bbe7292440c9361f38ab4e4d72e4d7063c9394532386b00d919"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefAtmosphereStep.cs.meta",
+    "bytes": 59,
+    "sha256": "9b9aa5d2f930be6d61a9a07a398d156ce6b6a3ace9b009770163653fc73f9613"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefEnvironmentBuilder.cs",
+    "bytes": 10883,
+    "sha256": "3df9721c9d8d020ef92aced99654b8f0c99e2464f90ce5ab6cdb4701d32ea67a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefEnvironmentBuilder.cs.meta",
+    "bytes": 59,
+    "sha256": "d3921e941a8455b3b78ad7e166244a3e4aee94a90658617501bcb284b7ceb74b"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefGroundingStep.cs",
+    "bytes": 3996,
+    "sha256": "6f0309d277c1cf58f3e442da5301cad0ac88005fe4c0d73ec49ebc6871ca06e8"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefGroundingStep.cs.meta",
+    "bytes": 59,
+    "sha256": "bbcca7d1cda681cf2bdc02cfcdc8dca843265301d2417cf619e31c1bf453ca68"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefLighting.cs",
+    "bytes": 2911,
+    "sha256": "12b670978072aaaf9d362989ac07f1594f9981e6e9bd9aa48fb33cef5f1d7ed8"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefLighting.cs.meta",
+    "bytes": 59,
+    "sha256": "c4eec4c6f6816e73e4ea890401428f040cbb8f6c540750dc3a62374d0c497a01"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefSetup.cs",
+    "bytes": 691,
+    "sha256": "3f0080164932fa02d222cea9c9d4047c6ed673189021ca419ba01cfbaca92298"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor/ReefSetup.cs.meta",
+    "bytes": 59,
+    "sha256": "3fc3c0c43dc7109be159c4c49eae88f061efcad21c8136e6dd3854fcd3be65dd"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Editor.meta",
+    "bytes": 172,
+    "sha256": "c7554c6e8991a9bb7d8588a570e2cd5e50c4573f11fcc4089900dae62af46074"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/BranchCoral_A.asset",
+    "bytes": 96189,
+    "sha256": "e03ba194636ed9c3de02887407e1c8227f80e0aa32b9384b58fc034612249e5a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/BranchCoral_A.asset.meta",
+    "bytes": 188,
+    "sha256": "3a8ff7b7b6e0479ea490858c514ab8338ae1c0998a93f5048eb753318c4983bc"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/BranchCoral_B.asset",
+    "bytes": 96187,
+    "sha256": "92bf17aa81471ff15f55d2c44d3653dbb961072a62d951f361792885695b911e"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/BranchCoral_B.asset.meta",
+    "bytes": 188,
+    "sha256": "80e1f7a6571ca1506b795c6592b8c0833289946cafd52574bc9346852bf65d3d"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/BranchCoral_C.asset",
+    "bytes": 96183,
+    "sha256": "d20956fe06ace74f88df1209ae3a90cbae0ccdf66d884a58923c7fd426627601"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/BranchCoral_C.asset.meta",
+    "bytes": 188,
+    "sha256": "21aad886a7b0ead445dc0018fb30866c358e4e6791fc7bb0889354c3aa40f7be"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Fish golden.mat",
+    "bytes": 3910,
+    "sha256": "801173b85d413cc778e47edc623c3b052103d36ab04041e0cd86a41f86146167"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Fish golden.mat.meta",
+    "bytes": 188,
+    "sha256": "58a5cf1779aba91993effa7672b0c9196edaa234fdd8979a3fa884140fc51764"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Golden coral.mat",
+    "bytes": 4038,
+    "sha256": "6dc71e4c541843589d5e7b6fa196f99765140f346cebe442b80eb9df09f02497"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Golden coral.mat.meta",
+    "bytes": 188,
+    "sha256": "ac36eb6ea6ff5e9e9fd2da903a6ef7aa37024ef5acace31e14d7284237e1d266"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly fine tentacles.mat",
+    "bytes": 887,
+    "sha256": "536c855828e98d6c1cb8c1643d2afeaeaf199e6fa3bc6be77ed3eb2d6558a10c"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly fine tentacles.mat.meta",
+    "bytes": 188,
+    "sha256": "928bbe24285d46ffb466780e27c9d570562d3a9ea96f591002c7cd253ef21cad"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly pink four petals.mat",
+    "bytes": 889,
+    "sha256": "101fc0a7e36299b2850b56182db48b9df6c07919e0ee6354698b8f83fa6ddc8e"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly pink four petals.mat.meta",
+    "bytes": 188,
+    "sha256": "381708645ea5db69da88a9f5974cacdef7d6a2430fbfff07028cc5f6a56934dd"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly soft ribbons.mat",
+    "bytes": 885,
+    "sha256": "e238bb90e69a99d6320afda328fb188393b86d276c1c9fe26d1cdf973a3825ea"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly soft ribbons.mat.meta",
+    "bytes": 188,
+    "sha256": "896bebbf762a9ff9a212793d0609e097d7fc89646477fa903f58c8e9408398a9"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly translucent bell.mat",
+    "bytes": 889,
+    "sha256": "6df015a49ea363013ccad2a7fb082afe22ebf2c269f8ccaf0017199bfed26aef"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Jelly translucent bell.mat.meta",
+    "bytes": 188,
+    "sha256": "cdf1ffcc1703e12a4f370c017904c6a99d8c4e9c9841095b61ceb44447f90540"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Lavender coral.mat",
+    "bytes": 4045,
+    "sha256": "16fa80c403eb334f7a4183260119d7c167a7aeeef0f95774acdc517f1f2dfb30"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Lavender coral.mat.meta",
+    "bytes": 188,
+    "sha256": "72cfe2d7940e8f80a71719ed5af558069822d56450752a9a3c8adb986fcf35fa"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyBell.asset",
+    "bytes": 49121,
+    "sha256": "453371fd7802ffa18f4fa8b639a38125ff9867f83df9074468564ad29114c75f"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyBell.asset.meta",
+    "bytes": 188,
+    "sha256": "10a62fe0b231a41ff9df4905c52e0e57b63bbd3806cef7afdf7ea56f89789a80"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyFourPetals.asset",
+    "bytes": 271155,
+    "sha256": "4304bdf598415ff331d0a6990b2c2225351a31e0928261c20f5e602d3132df4f"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyFourPetals.asset.meta",
+    "bytes": 188,
+    "sha256": "9d857cde760c2a6cd4818acbc806912ad9da1cce3da93673e7a02974cdca708f"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyOralArms.asset",
+    "bytes": 21057,
+    "sha256": "5487a55b0719ab05abe425b2c4d48666705644a637e92dba933ba43a08b7aa17"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyOralArms.asset.meta",
+    "bytes": 188,
+    "sha256": "6b7144c8f432eec8abfc11f5c7dd702e7551321b8f8a437554cadfccb90b7159"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyTentacles.asset",
+    "bytes": 83516,
+    "sha256": "efc26b3287acea211a2ba4d0772ada06205c9dbe86fd270b137b6d18219300a9"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyTentacles.asset.meta",
+    "bytes": 188,
+    "sha256": "2e5fdc73eb95e56c2d6965aa93d9abfff08be0ba5ad87a9a65d8dc60149845f9"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyfish.prefab",
+    "bytes": 12068,
+    "sha256": "55bc3e976ecf3ccb28fbd5b95e73bcaea104d52e8659116727b1a7a6e9bc2dfd"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/MoonJellyfish.prefab.meta",
+    "bytes": 154,
+    "sha256": "e480a58683b0bdaf78d837cb191abc1394e39bfe69dd750124eb174f9ccedd6a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/NaturalReefArch.asset",
+    "bytes": 8373,
+    "sha256": "e34e67bf730d55612ac449430e891f6739ce5323ff05dc2c6d421c2aa508d2ff"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/NaturalReefArch.asset.meta",
+    "bytes": 188,
+    "sha256": "3425b1fdf2adbf50353817eceab3ecc17598ab036712a1906ec9a7f06de4e11a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Pastel silver fish GPU.mat",
+    "bytes": 807,
+    "sha256": "d7531d7f72e28337f16c485db83021a5f3cd763e4964c69441d4ee08f5b3fe34"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Pastel silver fish GPU.mat.meta",
+    "bytes": 188,
+    "sha256": "014a9b50d40b002e7c9ca443ebe80a515738a5ac4e12e7003530f128bdd51e92"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/PastelReefFish.asset",
+    "bytes": 7213,
+    "sha256": "d7266fff8362e5fafbecab2d06cd687eaf99c401e0fc583102394eed1ef76772"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/PastelReefFish.asset.meta",
+    "bytes": 188,
+    "sha256": "6361fa7265dc2ae6f82f8ed5cd1f01b2e0dddaa2d37ffd79ccfb1e8d208737d0"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Peach coral.mat",
+    "bytes": 4038,
+    "sha256": "0a425bfbba701b9494e70617a6985ef57dda42ee0e6992bb72bad9b7b5955f65"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Peach coral.mat.meta",
+    "bytes": 188,
+    "sha256": "03f9ff9a2f1796fa820756b15bff6306a917654b807feb8c08beadc66576126c"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Pearl jelly.mat",
+    "bytes": 3930,
+    "sha256": "87234f11006a54f28f95de7635fb92a81189f5dfe922cf7422e01e28e7795bd5"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Pearl jelly.mat.meta",
+    "bytes": 188,
+    "sha256": "c3f2f1d7ab473e485112754d53a8138fd0207a44621795dfa744f4533f491bd6"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Rock ocean blue.mat",
+    "bytes": 4144,
+    "sha256": "540573868b4c648b8897c9c22444500c6555b05c1801bbd0284a599f07b058b0"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Rock ocean blue.mat.meta",
+    "bytes": 188,
+    "sha256": "fda06f7204a75f60286a46a3ae8280946e2a869aa27fc12e685213528ab3be8d"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Rooted kelp GPU.mat",
+    "bytes": 1026,
+    "sha256": "30d0372ecda1bc70849f4f9e8b034fe5a4bbcdb7dc63485224d6f607c2cd42aa"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Rooted kelp GPU.mat.meta",
+    "bytes": 188,
+    "sha256": "1a41fae10e86fe3081f07d50a15e5be6a6a77e4dcc54ecbb27d3f8bb55e1ee16"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_0.asset",
+    "bytes": 18163,
+    "sha256": "e83185d5a969ea28f86e20f1e24e3bae572cc9dd5a028c3cd36601321fb02344"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_0.asset.meta",
+    "bytes": 188,
+    "sha256": "a24fee080a307aaa3002b366ae526c3bc8c60e331d153f2c686bfb3ea2b9b5bc"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_1.asset",
+    "bytes": 19954,
+    "sha256": "73ba89aedc87373178df3e54cb37d6865e926bf0fc11425be23348976baa4fa5"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_1.asset.meta",
+    "bytes": 188,
+    "sha256": "59649bded161aeec8a296e05f56a559d89ea1654791a2784f647c680cb748bb3"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_2.asset",
+    "bytes": 18154,
+    "sha256": "18fd8c19563c401dd28b207817fe50f6a00d9e46013774a2d186f6ba4a15714b"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_2.asset.meta",
+    "bytes": 188,
+    "sha256": "7aa4eaf9897f93ff45a1d59ba8e1916358d46c1fd7f1cf2a2f80b9598db305af"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_3.asset",
+    "bytes": 16332,
+    "sha256": "f8fd45f2c97b8a5340afe78d041f3137c7af73e3fd2f9c32292bf585c6ce1168"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_3.asset.meta",
+    "bytes": 188,
+    "sha256": "12140c9cb9cea40a9d67ab878fd28052ddf9944722060846b101034b72a03870"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_4.asset",
+    "bytes": 18157,
+    "sha256": "04b404eb4e470048b65812783ef6d3ef612283dc72f7fe1ad99ded01c430701c"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/RoundedCoral_4.asset.meta",
+    "bytes": 188,
+    "sha256": "f9d729b501e0367dc3909151708813b2d33448b9e454936fdad02d69e1026c5e"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Sand turquoise.mat",
+    "bytes": 4139,
+    "sha256": "aebe5000476083643ec10cb71e1c5445fae9bc17b0ec39c2e90503904acd5dd8"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Sand turquoise.mat.meta",
+    "bytes": 188,
+    "sha256": "ec2aa8d7b4d3a6e6ef50cb471f69c92f2e2fd66a1d4afdf3113834e2c5e22bdb"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SandTerrain.asset",
+    "bytes": 122583,
+    "sha256": "937bc3c3ff3e1028b1f6930d9a665c94c6a1192eebefa565cc9f4448272e03b0"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SandTerrain.asset.meta",
+    "bytes": 188,
+    "sha256": "290617207c05ce1ea2121c102a8530d6711ac9ebeff72279535f5c4a283d5d25"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Seaweed jade.mat",
+    "bytes": 3942,
+    "sha256": "8c324939aad95f401500a5c8ab1180394b5f3a9165c4f31da45487e60aa93b02"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Seaweed jade.mat.meta",
+    "bytes": 188,
+    "sha256": "a9a078b57ba971f18cd965a5efe8a1810726878d139696f8e7160fc83eb396a4"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SeaweedRibbon.asset",
+    "bytes": 5354,
+    "sha256": "8526c2879e3cbe5c22f4273109b4a8f4c3fdbdb05e27593611f268a423ea9c25"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SeaweedRibbon.asset.meta",
+    "bytes": 188,
+    "sha256": "2cffc921ee1e35d8bb85575e522aef2fb4f829e73e78c0fe6f8b1d6d94d8ff7b"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Simulated probe marker.mat",
+    "bytes": 1902,
+    "sha256": "b7f35c0dc5c59f00be6cb4a6448a6dc79a51e08b4de22616ab2e849230ba1673"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Simulated probe marker.mat.meta",
+    "bytes": 188,
+    "sha256": "a8046e7b93663893f8edc602c2c6f4a53fa159718624e169b072b872f74d72c1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Soft sunlight shafts.mat",
+    "bytes": 821,
+    "sha256": "70c03a446dd5b6569b591b41a503f4143f712da59d49433a82bd920973a826e2"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Soft sunlight shafts.mat.meta",
+    "bytes": 188,
+    "sha256": "785eb3e1234310383f24a92188ed8dce1ae63e581dfcf0560a184b2e31fa205b"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Soft underwater motes.mat",
+    "bytes": 766,
+    "sha256": "edb9d444017d5dc809ff8a5130c090cc73a1c0c5622d5888a167650b756b282e"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Soft underwater motes.mat.meta",
+    "bytes": 188,
+    "sha256": "f197acc66d12725721c67d44ca299ca738140e3c8c233751113ad1cf915eaacb"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftCaustics.png",
+    "bytes": 37642,
+    "sha256": "073cd325ae4c468ce4255f0dad9eb2dca4c3281bcda96ac4a38932a22d6b0bea"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftCaustics.png.meta",
+    "bytes": 3425,
+    "sha256": "efb3f005b9e576f768ed384a94a385e503acbc36b058367ce5f1c19e49b0fccd"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftRock_A.asset",
+    "bytes": 6504,
+    "sha256": "0ee55b086015e984e40774b2fbf75d6c7b473701edc75fe85da1539146508cb1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftRock_A.asset.meta",
+    "bytes": 188,
+    "sha256": "e0ec31add654a9206520ad9f216a9c02e5df297909636110213fb288b88ca315"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftRock_B.asset",
+    "bytes": 6506,
+    "sha256": "c560dcd5550af0618296341b6b8e0f8432bf1aa40de1686f020b48d1e24abc8b"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftRock_B.asset.meta",
+    "bytes": 188,
+    "sha256": "91faea59a488af51ed8a87fbf1d1f7eb830e0c5a23ce045bdff4d6f9a62217cf"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftRock_C.asset",
+    "bytes": 6506,
+    "sha256": "ac4460dea11d38b192f6fab318d7cf1d891e605e03751ba019f8891cfc78a825"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftRock_C.asset.meta",
+    "bytes": 188,
+    "sha256": "c3d752ba50eb77dd21bcd7ade09f3b49095ec6807ccf70586fb071d42627e48a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftShaftPlane.asset",
+    "bytes": 3740,
+    "sha256": "02228b3792e18c6e9faf319b54022c3bc90a08ef4d4c613c2792b15285a7d3e1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/SoftShaftPlane.asset.meta",
+    "bytes": 188,
+    "sha256": "e84db3adfc315d2d8ce7139632f29dd14b85721f1fc49358741c6d878342e6e1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Sunlit water sky.mat",
+    "bytes": 761,
+    "sha256": "a4f6ca9f2f9303d323b29d96181c583e128eda87c113c63a228180970a6ed016"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Sunlit water sky.mat.meta",
+    "bytes": 188,
+    "sha256": "ef63dd43b0ec998639ea72bc425ce2e43f35ceb742094a0919bfdbd99b495be7"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/UnderwaterGarden.prefab",
+    "bytes": 1071264,
+    "sha256": "e1d6cf2513355a86723397be7afb5bcfb92e90702bf18327dfb69c64a2fbe0c1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/UnderwaterGarden.prefab.meta",
+    "bytes": 154,
+    "sha256": "6750bec730667a2191b0c5e326696ec62671a298d06bef4b40d997badb9ed434"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/UnderwaterVolume.asset",
+    "bytes": 3467,
+    "sha256": "e010086ae5ac3f514465cb7f81215d0e67e603b58e5ff2c05906acddc80793b4"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/UnderwaterVolume.asset.meta",
+    "bytes": 189,
+    "sha256": "fafcd7227cd2f06e2a881f6a0a423d4d02e69e2b7c5688580f80085056403268"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Wide kelp jade.mat",
+    "bytes": 3944,
+    "sha256": "8e7f68c0da5947a30c9d7b87fc35ea90b4ae244bec2125c67fe5276168661501"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/Wide kelp jade.mat.meta",
+    "bytes": 188,
+    "sha256": "7f9bc32007116f06f1d6486461f792fab622752972de98a5752f44f085c4b49a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/WideKelp.asset",
+    "bytes": 45184,
+    "sha256": "b4c4a5252a1f3b7197155095dea8a28a6155cbc0785ac846cfa5058f041546e0"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/WideKelp.asset.meta",
+    "bytes": 188,
+    "sha256": "69d175c1a621f0f75cfd819a4cec83d3ac528263f0e35752795676e74a186819"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/WideKelp.prefab",
+    "bytes": 2652,
+    "sha256": "8e15f2f3559a79db5dafdb18414d1fef84dee84916d84fdc3a0127786cc81849"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/WideKelp.prefab.meta",
+    "bytes": 154,
+    "sha256": "929bc79eebc4662bfc022126173f7394912c443d25783a7e4e46e0b88940c211"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/WideKelpGPU.asset",
+    "bytes": 24331,
+    "sha256": "6e2d40ee2ee032b3f3a7012066221ad21e6aa999cc3c0fc42528bf2250e508f0"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment/WideKelpGPU.asset.meta",
+    "bytes": 188,
+    "sha256": "601f3dc66c70f19be5b1e80d9b3836bf36e50ab6e504e90a23565acd33c6eae0"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Environment.meta",
+    "bytes": 172,
+    "sha256": "d9912c378b139b85fde51e231eb525857786ee4de62a9e25ab3f4632eb725b59"
+  },
+  {
+    "path": "Assets/UltrasoundReef/README.md",
+    "bytes": 1144,
+    "sha256": "1a9bb4da58674ab3fa0e551968fcd81369c3495d70899be6b4c2f75f47cef3ac"
+  },
+  {
+    "path": "Assets/UltrasoundReef/README.md.meta",
+    "bytes": 158,
+    "sha256": "b2e6c9d29e80b0f7cf52b8c80943ed0a0ee17b13e49703c9a97f961abedae6ef"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/GelSeaweedPreview.cs",
+    "bytes": 5264,
+    "sha256": "1d814154494d4440eb82e5e826aaf320a7e54312c66bdec0f8668a2e5da412a1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/GelSeaweedPreview.cs.meta",
+    "bytes": 59,
+    "sha256": "e14d21b7708b61effddbccd2a7e4d52b88bbc3f79c969d9c1c3338f4a1a61055"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/JellyfishArrival.cs",
+    "bytes": 2767,
+    "sha256": "d582602fa6ad73b5cd39fa58ac44342377b065dd82a7a6d039493a97612500d8"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/JellyfishArrival.cs.meta",
+    "bytes": 59,
+    "sha256": "f0e841c44dd6e82a4f6884d7879a1aacc4615c765d064acd247ae216ef4ead7c"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/JellyfishBreath.cs",
+    "bytes": 993,
+    "sha256": "9a28f499b047182cb369db168d79707f0b73b9d10a049c512421551767a0989e"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/JellyfishBreath.cs.meta",
+    "bytes": 59,
+    "sha256": "9b2115df18de16e2308983e43a63daf213ca02b7ebb876e9d4996ef09a7485f1"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/ProbeExamFlow.cs",
+    "bytes": 8024,
+    "sha256": "9137f7cf42d9aadb4fdce5b3a2ae102ccd59c9dab909864cac5b47b89f2592f9"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/ProbeExamFlow.cs.meta",
+    "bytes": 59,
+    "sha256": "de47e5e22cae93a95e8bf05a5e78b90346f3a929d8232a3530295e2973bd05d3"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/ReefDesktopLook.cs",
+    "bytes": 1367,
+    "sha256": "14ec9d03df87edb7b0556af79026df1c5b7c0b8f9d12d853ff091e49f49da7ef"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/ReefDesktopLook.cs.meta",
+    "bytes": 59,
+    "sha256": "04c6eb9ddde406149979efa71bd30bf5b391508e0b25f6a1d317eb01576ffb22"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/ReefFlow.cs",
+    "bytes": 8769,
+    "sha256": "cd3bd851ebb079d7d0599539efd5422ce596f3102d7c63e05cc8f1ed4631d586"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime/ReefFlow.cs.meta",
+    "bytes": 59,
+    "sha256": "44286dd80630be2528baaa4c2e318f11caa24020fcc28c1ca714e41979f64006"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Runtime.meta",
+    "bytes": 172,
+    "sha256": "340154394765d0b89b99c793f2fa1747e103ecae6962406ac3562c26a5efc3f8"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/CoralSunlight.shader",
+    "bytes": 1947,
+    "sha256": "8b7e831fcf6d38f605f15c0f87b9a0078e767ad01019cfd1a8e2f1c7faaaca29"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/CoralSunlight.shader.meta",
+    "bytes": 204,
+    "sha256": "0cca1e511a4cb3db8b67ae0decd8f3764cb51e9a7207756d144f53eb174268c5"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/MoonJellyfish.shader",
+    "bytes": 2163,
+    "sha256": "7d74ff2c453778d806bb7a0ba0b9ad8d84b31de5b37251ab065f718652ef0351"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/MoonJellyfish.shader.meta",
+    "bytes": 204,
+    "sha256": "b6760904249c852a6823859748a72288b4ae2af453323085c785aabae8ccb216"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/ReefFish.shader",
+    "bytes": 1527,
+    "sha256": "bb1e6bb510448041e4512be647cfad0e85fc9e13d6b24ca149edba94ab2b9120"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/ReefFish.shader.meta",
+    "bytes": 204,
+    "sha256": "a9279ed9d4e440676bece070816ae13594b1a93a8657d2e9b8e41f30bf4483a2"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/ReefMote.shader",
+    "bytes": 872,
+    "sha256": "24fa4c0f26e5a490f4af9ef6cb91e648acd2f708677c2df2c02aac4cc50ade51"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/ReefMote.shader.meta",
+    "bytes": 204,
+    "sha256": "dbbb8d5a48b54514b84ca0bbda1defde9fd4fe9308f78d18334dfb44af4bb19d"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/ReefSurface.shader",
+    "bytes": 1978,
+    "sha256": "112415561ec1c4f018d9bd9563ddfdda8e5e691f93b78cf70f34d325f4a83348"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/ReefSurface.shader.meta",
+    "bytes": 204,
+    "sha256": "b9d8aefcca8d60a27040fbd709594a51dcbb356edc1799dc3da4d1c199840519"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/RootedKelp.shader",
+    "bytes": 2462,
+    "sha256": "65bf6df4ed80b0ac63da15e5704dd900af948973a8bdb776b56f931d5ef02b61"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/RootedKelp.shader.meta",
+    "bytes": 204,
+    "sha256": "de17d223b2b81a5b2389a2cc7aa924d03f622dec7e11839634c672357389dc7a"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/SoftLightShaft.shader",
+    "bytes": 1298,
+    "sha256": "3a088576c1e4f2391a48213aa79847e7e46fd7ba676f392d92aae7f7b84407cb"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/SoftLightShaft.shader.meta",
+    "bytes": 204,
+    "sha256": "3480533878d1f782057608cc7321dfded18d46e42e763163aefcb6213d844a67"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/UnderwaterSky.shader",
+    "bytes": 1234,
+    "sha256": "76857bb2b12f7c10e31a3ff2a0f8c30fc6f818de85e6b6116e797e3a45f8207c"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders/UnderwaterSky.shader.meta",
+    "bytes": 204,
+    "sha256": "c5dd9abd7af3f51984f4144554957e2fe0f3c9598f09616b6a786bf958624e3f"
+  },
+  {
+    "path": "Assets/UltrasoundReef/Shaders.meta",
+    "bytes": 172,
+    "sha256": "89263e6229085da457c195feff87d179d2fdb2e5ceefd07e5925b8683696a33b"
+  },
+  {
+    "path": "Assets/UltrasoundReef.meta",
+    "bytes": 172,
+    "sha256": "027219443b4b618160f8b0e9e727f725598f250e49af78ae708345c6d94e40d7"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "bytes": 1919,
+    "sha256": "d37503c2c27cd205af47bfb2bc3a199beb2a8473a70b0064d48258a4de51467e"
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "bytes": 11747,
+    "sha256": "73ad397e020f27237ed4fa6f1366c3bd017b8d0da5ff973b199776b063ef0b37"
+  },
+  {
+    "path": "ProjectSettings/AudioManager.asset",
+    "bytes": 413,
+    "sha256": "aeedeb3243f07b61dbbe854aa08b5ef6f0b5274dd9852ad9f6129dde3e105a31"
+  },
+  {
+    "path": "ProjectSettings/ClusterInputManager.asset",
+    "bytes": 114,
+    "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
+  },
+  {
+    "path": "ProjectSettings/DynamicsManager.asset",
+    "bytes": 1587,
+    "sha256": "bf017b547bb77ce3443dd5287ddf2516a74fd167f4f2ee5d798340694f51776d"
+  },
+  {
+    "path": "ProjectSettings/EditorBuildSettings.asset",
+    "bytes": 371,
+    "sha256": "8d1712535531522f729d34e843ea20772c01d002227338f8f802f472d7e8d78e"
+  },
+  {
+    "path": "ProjectSettings/EditorSettings.asset",
+    "bytes": 1673,
+    "sha256": "183b4aee63306b05ec64ee1a066e6afd467004c0d755e4e37b693718eb838d51"
+  },
+  {
+    "path": "ProjectSettings/GraphicsSettings.asset",
+    "bytes": 2498,
+    "sha256": "674353be91a9a32dfa24e4db263f11105ee6c82ff20cc346bc150eb4903b33ff"
+  },
+  {
+    "path": "ProjectSettings/InputManager.asset",
+    "bytes": 9731,
+    "sha256": "7a1bb836a1008d26d0860d143e9d9df7ca41731d30a72901b518063819c62df2"
+  },
+  {
+    "path": "ProjectSettings/MemorySettings.asset",
+    "bytes": 1192,
+    "sha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd"
+  },
+  {
+    "path": "ProjectSettings/MultiplayerManager.asset",
+    "bytes": 157,
+    "sha256": "aba89fd1a1ddad182727ad82727e536d27372e90328a8196da2a4560398983dd"
+  },
+  {
+    "path": "ProjectSettings/NavMeshAreas.asset",
+    "bytes": 1308,
+    "sha256": "80106cfa7e6181a1928b142c075f3e510d527441e3d79bc83590e4ac91e7cd66"
+  },
+  {
+    "path": "ProjectSettings/PackageManagerSettings.asset",
+    "bytes": 1157,
+    "sha256": "f281d96e785df430d30ce0a515f4fe5c625ef44467125879f4b9f4cb087e1578"
+  },
+  {
+    "path": "ProjectSettings/Physics2DSettings.asset",
+    "bytes": 2028,
+    "sha256": "d57a0fe55659c33879e8b70bc01c5ea9cdf082069dab649905c6c5138531e6eb"
+  },
+  {
+    "path": "ProjectSettings/PhysicsCoreProjectSettings2D.asset",
+    "bytes": 151,
+    "sha256": "bedc5339a832c60dc3f11b84abc4f4384dbfa20b0cd9ad6c444b907e751fc35e"
+  },
+  {
+    "path": "ProjectSettings/PresetManager.asset",
+    "bytes": 146,
+    "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c"
+  },
+  {
+    "path": "ProjectSettings/ProjectAuditorSettings.asset",
+    "bytes": 1036,
+    "sha256": "9e68444b9bda981e2927a98df9edf69ea88362f0c6b7f3c81b39b9d515d2a416"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "bytes": 25272,
+    "sha256": "649c0d899fb625bfa5a9c45f8309f77466974207b2ea3a99f3865c3905ed0a22"
+  },
+  {
+    "path": "ProjectSettings/ProjectVersion.txt",
+    "bytes": 83,
+    "sha256": "2a88e6864b6f54588287bed3bc6e9260e65bd49498910cca4478770ca8a5d674"
+  },
+  {
+    "path": "ProjectSettings/QualitySettings.asset",
+    "bytes": 3826,
+    "sha256": "7fa3e21095b718cecea9e9befeb6d56aced5eca369a1c5844214fc3e1ed7f415"
+  },
+  {
+    "path": "ProjectSettings/SceneTemplateSettings.json",
+    "bytes": 3535,
+    "sha256": "bb9098b3bfcde78d93e264b96f7b77b5430e64e8c57a7aad7f5a5d9c3945e16a"
+  },
+  {
+    "path": "ProjectSettings/ShaderGraphSettings.asset",
+    "bytes": 556,
+    "sha256": "cdba1e5d65bcf6e3269d76ed3e60b6c21f98322002996642c9d74f1eb89f6b91"
+  },
+  {
+    "path": "ProjectSettings/Switch2PlayerSettings.asset",
+    "bytes": 2116,
+    "sha256": "61be6f69426706b633a8f8340a11405ed8f9f8ec1d88b240540d6fd30ab7c26a"
+  },
+  {
+    "path": "ProjectSettings/TagManager.asset",
+    "bytes": 657,
+    "sha256": "23fc56b484aa3d7edf5914cd3591f7a823ccef5e3f3496f8a51f30388ead63dc"
+  },
+  {
+    "path": "ProjectSettings/TimeManager.asset",
+    "bytes": 202,
+    "sha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd"
+  },
+  {
+    "path": "ProjectSettings/URPProjectSettings.asset",
+    "bytes": 461,
+    "sha256": "c317fe22b9488785c0611f0642429922e5d324430d929bffb41648130f30c218"
+  },
+  {
+    "path": "ProjectSettings/UnityConnectSettings.asset",
+    "bytes": 1191,
+    "sha256": "7f2112b8c6ea0885dcc72b312c9726ffcd909f2e89d1eead61889274a4e5d1c0"
+  },
+  {
+    "path": "ProjectSettings/VFXManager.asset",
+    "bytes": 308,
+    "sha256": "f066c6483919961332415ee64204f74fe52f38c02e82892eb02b7a5b2e381f0e"
+  },
+  {
+    "path": "ProjectSettings/VersionControlSettings.asset",
+    "bytes": 188,
+    "sha256": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071"
+  },
+  {
+    "path": "ProjectSettings/XRSettings.asset",
+    "bytes": 158,
+    "sha256": "edd2beb4a2e388312b4b7da241aa51070434005d82c59363f1237dd2e567585f"
+  },
+  {
+    "path": "Documentation/Backups/UnderwaterExamPreview_before_jellyfish.unity",
+    "bytes": 1134577,
+    "sha256": "65a1bda6e3936ad92d4ce5264b104090b7882486dea189116a9606f883d66117"
+  },
+  {
+    "path": "Documentation/DevelopmentNotes/Underwater_Art_Step1_Changes.md",
+    "bytes": 3232,
+    "sha256": "44acf4c915b5b30ad7ed54a6d232e4bfb23d051445206be29c4b8651e7bfa69e"
+  },
+  {
+    "path": "Documentation/DevelopmentNotes/Underwater_Art_Step2_Changes.md",
+    "bytes": 3176,
+    "sha256": "8db1c5bf00fca9e8afaab73a65715d3da7c3f917d0f336cafd3be15645a10947"
+  },
+  {
+    "path": "Documentation/DevelopmentNotes/Underwater_Jellyfish_Arrival_Changes.md",
+    "bytes": 4698,
+    "sha256": "2c5e8a786edbd9bf0c90a2d3ebb8a8456f92c51a1b8d1d02f678830194519788"
+  },
+  {
+    "path": "Documentation/DevelopmentNotes/Underwater_Probe_Animation_Changes.md",
+    "bytes": 4487,
+    "sha256": "31c557af7c7eba6851af178309ed426f99883ac01f51e55a6b8f007dccbc2308"
+  }
+]

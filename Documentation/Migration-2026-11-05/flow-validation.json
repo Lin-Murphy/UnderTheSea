@@ -1,0 +1,27 @@
+{
+    "unityVersion": "6000.3.27f2",
+    "pipeline": "Quest_URP",
+    "scene": "Assets/Scenes/Main.unity",
+    "failures": [],
+    "observations": [
+        "Standby hides the reef.",
+        "Enter reveals the full reef.",
+        "ApplyGel connects Tag 0 to the rooted kelp deformation.",
+        "Lost Tag 0 returns to the authored sweep after the grace period.",
+        "Probe fish accept a valid Tag 1 pose.",
+        "Mirror fish synchronize in Probe.",
+        "Lost Tag 1 releases fish after the grace period.",
+        "Dusk completes the source arrival before BreathHold.",
+        "Patient and mirror coral share the same breath growth.",
+        "Moon-jelly breath deformation and glow follow BreathHold.",
+        "Exhale advances to Finale.",
+        "Exhale leaves exactly one visible jellyfish.",
+        "Finale extends the continuous Tag 2 ribbon.",
+        "Finale ribbon follows the supplied Tag 2 pose.",
+        "Exit returns through Finished to Standby automatically.",
+        "Reset returns an active experience to the AR Start state.",
+        "The runtime advanced beyond the initial frame."
+    ],
+    "passed": true,
+    "frameCount": 7492
+}

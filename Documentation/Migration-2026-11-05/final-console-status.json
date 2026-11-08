@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "command": "command console status",
+  "data": {
+    "command": "console status",
+    "parameters": {},
+    "result": {
+      "entries": [],
+      "cursor": 148,
+      "session": "914acd81648d4347aa270295044ef88b",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 33,
+        "log": 115
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-05T12:38:44.388059Z",
+        "ageMs": 122,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 21,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "D:\\project\\Unity\\UnderTheSea"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

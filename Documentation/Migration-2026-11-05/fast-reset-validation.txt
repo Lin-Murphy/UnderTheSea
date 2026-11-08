@@ -1,0 +1,1 @@
+Passed: reset from fully revealed VR returned to Standby, hid the reef, and displayed Start.

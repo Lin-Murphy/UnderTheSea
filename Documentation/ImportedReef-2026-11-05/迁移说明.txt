@@ -1,0 +1,19 @@
+Unity 海底超声体验项目迁移说明
+
+Unity 版本：6000.6.7f1（Unity 6.6）
+
+1. 解压整个 ZIP，保留 Assets、Packages、ProjectSettings 的相对位置。
+2. 在新电脑 Unity Hub 安装 6000.6.7f1，然后 Add / 从磁盘添加项目，选择包含上述三个目录的文件夹。
+3. 首次打开需要联网下载 Packages 并重建 Library，等待资源导入和编译完成。
+4. 打开 Assets/Scenes/UnderwaterExamPreview.unity，然后点击 Play。
+5. 空格依次进入涂胶、探头检查、天黑和水母入场；3 + 空格可快速预览水母。
+   P 暂停、R 重播、1 返回白天待机；鼠标拖动调整视角。
+
+压缩包包含：全部 Assets（含 .meta）、Packages（含锁文件）、ProjectSettings、Documentation、开发记录。
+排除：Library、Temp、Logs、UserSettings、.DS_Store。这些为缓存、临时文件或本机偏好，不影响项目源文件迁移。
+
+当前为桌面原型。探头使用键盘模拟，尚未接入真实 AprilTag、Quest XR / passthrough；Quest 3 实机性能未验证。
+如要继续 Android / Quest 开发，在 Unity Hub 添加对应 Android Build Support、SDK/NDK、OpenJDK 模块。
+当前水母为程序生成风格化模型，后续仍可继续细化。
+
+FILE_MANIFEST.json 记录各源文件的 SHA-256 校验值。

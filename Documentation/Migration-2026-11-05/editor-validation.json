@@ -1,0 +1,13 @@
+{
+    "unityVersion": "6000.3.27f2",
+    "pipeline": "Quest_URP",
+    "scene": "Assets/Scenes/Main.unity",
+    "failures": [],
+    "observations": [
+        "Main uses the original ExperienceController, keyboard and right-controller input.",
+        "Camera sits on the participant coral; the mirror coral is removed.",
+        "demo1 FBX fish, soft seaweed strands, four-part moon jellies, shafts, caustics and motes are connected."
+    ],
+    "passed": true,
+    "frameCount": 0
+}

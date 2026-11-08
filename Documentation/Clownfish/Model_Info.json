@@ -1,0 +1,8 @@
+{
+  "mesh_objects": 15,
+  "triangles": 15264,
+  "length_m": 0.404,
+  "animation": "Swim_Loop, 2 seconds, 30 fps",
+  "axis_in_blender": "nose -X; Z up",
+  "texture": "1024 x 1024 BaseColor"
+}

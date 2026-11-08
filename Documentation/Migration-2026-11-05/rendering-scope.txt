@@ -1,0 +1,4 @@
+Lightmaps: 0
+Reflection probes: 0
+Light probe groups: 0
+Filtered sunlight: Realtime

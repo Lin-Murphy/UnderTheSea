@@ -1,0 +1,19 @@
+{
+  "source_copied_files": 188,
+  "retained_folder_meta": [
+    "Assets/Scenes.meta"
+  ],
+  "intentional_adaptations": [
+    "Assets/Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "Assets/TutorialInfo/Editor/ReadmeEditor.cs",
+    "Assets/UltrasoundReef/Editor/CoralPaletteStep.cs",
+    "Assets/UltrasoundReef/Editor/ProbeExamSetup.cs",
+    "Assets/UltrasoundReef/Editor/ReefAtmosphereStep.cs",
+    "Assets/UltrasoundReef/Editor/ReefGroundingStep.cs",
+    "Assets/UltrasoundReef/Editor/ReefLighting.cs",
+    "Assets/UltrasoundReef/Runtime/JellyfishBreath.cs"
+  ],
+  "unexpected_source_asset_changes": [],
+  "duplicate_asset_guids": {},
+  "backup_sha256_valid": true
+}

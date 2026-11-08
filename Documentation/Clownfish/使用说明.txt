@@ -1,0 +1,28 @@
+小丑鱼 A · Unity 模型素材
+
+交付内容
+Clownfish_Unity.fbx：Unity 优先使用，含骨骼与 Swim_Loop 动画。
+Textures/Clownfish_BaseColor.png：1024 x 1024 身体颜色贴图。
+Clownfish_Source.blend：可编辑源文件，含预览相机及灯光，贴图已打包。
+Clownfish.glb：备用通用三维文件；Unity 使用它需要额外支持 glTF 的导入器。
+Preview_ThreeQuarter.png、Preview_Side.png：实际 Blender 模型渲染，非概念生成图。
+
+Unity 使用
+1. 将 FBX 和 Textures 文件夹一起复制到项目 Assets 下。
+2. 选中 FBX，Rig 使用 Generic。Animations 中导入动画并开启 Loop Time。FBX 中片段名称可能显示为 Clownfish_Rig|Scene，可重命名为 Swim_Loop。
+3. 将 FBX 拖进场景。要自动播放，可为它创建 Animator Controller，将导入的 Swim_Loop 作为默认状态。
+4. 若材质或贴图未自动关联，提取材质，并将 Clownfish_BaseColor.png 指定给身体材质的 Base Map / Albedo。
+5. 根据项目的 Built-in、URP 或 HDRP 管线使用相应 Lit 材质。不同管线的灯光与材质效果可能与 Blender 预览不同。
+
+尺寸与编辑
+总长约 0.404 米，可按场景需要等比缩放。
+15 个网格部件，约 15,264 三角面。身体、眼睛、鱼鳍可分别编辑。
+Blender 中鱼头朝 -X，Z 向上；FBX 已设置 Unity 常用的 Y 向上导出。
+鱼鳍与眼睛使用纯色材质，身体有 UV 与颜色贴图。
+Swim_Loop 为 30 fps、帧 1–61 的两秒循环，只控制身体与鱼鳍姿态，不包含场景游动路径。
+
+验证与范围
+已在 Blender 导出后重新导入 FBX 检查网格、骨骼、UV、图像与尾部动画。
+未在 Unity 编辑器中实机验证；需在你的目标项目中检查管线材质、缩放与动画播放。
+此版是基于已选 A 形象制作的风格化基础模型，细节与概念图不完全相同。
+尚未包含 LOD、碰撞、交互逻辑或鱼群系统。

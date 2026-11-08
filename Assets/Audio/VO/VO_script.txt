@@ -1,0 +1,44 @@
+Ultrasound Wonders Voiceover Script — Under the Sea (确定版, 2026-11-05)
+Cue 对应:文件 → 阶段 / 触发(见 Assets/Editor/BuildReefMainScene.cs 的 vo.cues)
+
+VO_01  Opening — Enter,VR 完全显现后 1s(与开场背景乐同时)
+  Welcome to Ultrasound Wonders: Under the Sea.
+  Make yourself comfortable. Here, you are a coral, resting gently beneath the waves.
+  For now, breathe normally. Follow your clinician's instructions, and let them know if you need a pause.
+
+VO_02  Gel — ApplyGel,进入后 1s
+  A gentle wave passes over you.
+  Some little fish have come to say hello.
+
+VO_03  Probe contact — Probe,探头 tag 第一次进入海草区域后 0.3s(3s 内没识别到也照常播放)
+  (2026-11-05 晚新录音,台词略改;旧的 VO_03.1 / VO_03.2 不再使用)
+  A little clownfish nestles close as the seagrass gently rests against you.
+  You may feel a little pressure.
+
+VO_04  Night falls — DuskTransition,进入后 0.5s(2026-11-05 晚新录音,台词略改)
+  Night is falling over the reef, the little fish nestle among your coral branches.
+  Let's help the jellyfish's gentle light grow.
+
+VO_05  Breathe in — BreathHold,进入后 1s
+  Take a slow breath in, as deeply as feels comfortable.
+  Watch the jellyfish grow and glow.
+
+VO_06  Hold — 一个文件里两轮呼吸提示,按句间停顿切成 4 段,跟着扳机播放
+  06a 0–4.27s     Gently hold for a moment. The light rests with you.
+                  → 05 播完且第一次按住扳机后 2s(进入场景 20s 仍没按也播)
+  06b 4.27–7.29s  Perfect. Now you can breathe normally.
+                  → 06a 开始后第一次松开扳机
+  06c 7.29–13.25s Let's try it again. Take a slow breath in, then hold.
+                  → 06b 播完 5s 后
+  06d 13.25s–结尾 Wonderful. You can breathe normally now.
+                  → 06c 开始后第一次松开扳机(第二次呼气)
+  如果助手在第二轮呼吸前就按 A 结束场景4,06c/06d 不会播。
+
+VO_07  Resume normal breathing — ExhaleTransition(按 A 天亮),进入后 0.5s
+  You can breathe normally now.
+  The light spreads softly around the little fish.
+
+VO_08  Closing — Exit,进入后 0.3s;回到现实后继续播完(只有按 B 才中断)
+  Our underwater journey is coming to an end.
+  Thank you for sharing this little ocean with us.
+  Gently bring your attention back to the room. Keep resting while we help you remove the headset.
