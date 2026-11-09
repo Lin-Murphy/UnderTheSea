@@ -33,7 +33,7 @@ People, not sensors, connect the scan to the sea: the **doctor** leads the scan 
 
 ## Team
 
-Renee Wen · Murphy Lin · Kevin Zheng · Haoxin Liang
+Renee Wen · [Murphy Lin](https://github.com/Lin-Murphy) · [Kevin Zheng](https://github.com/yingtaozheng) · Haoxin Liang
 
 ## License
 
