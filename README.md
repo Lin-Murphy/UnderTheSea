@@ -4,7 +4,7 @@
 
 Built by Team 2 at the [ARR Hackathon](https://www.scivr.co.uk/arr-hackathon) (4–6 Nov 2026, Goldsmiths, University of London). 🏅 **Nomination award**, presented by the ARR Project Leads.
 
-https://github.com/user-attachments/assets/56a70fdd-ee4f-47b5-a6c8-9050c689c04b
+https://github.com/user-attachments/assets/68e55ce6-74f1-4659-bf6f-851c74e02e92
 
 [1080p video](https://github.com/Lin-Murphy/UnderTheSea/releases/download/v0.1-cs15/Ultrasound-Wonders-Demo-1080p.mp4) · [Quest 3 APK](https://github.com/Lin-Murphy/UnderTheSea/releases/tag/v0.1-cs15)
 
